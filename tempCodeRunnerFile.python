@@ -1,0 +1,20 @@
+import numpy as np
+
+# arr1 = np.full((30,3), "Bagla Gandu")
+# print(arr1)
+
+# identity_matrix = np.eye(3)
+# print(identity_matrix)
+
+
+# arr = np.array([1.232,2,32,3.889])
+# string_array = arr.astype(int)
+# print(string_array)
+
+# arr1 = np.array([10,20,30,40,50,60,70])
+# print(arr1[arr1<10.01])
+
+arr2d = np.array([[1,2],[3,4]])
+print(arr2d)
+new_arr2d = np.delete(arr2d, 3)
+print(new_arr2d)
